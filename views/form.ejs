@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        background-color: rgb(253, 210, 210);
+    }
+   input  {
+    margin-left: 35%;
+    padding: 15px 10px;
+    width: 30%;
+    border-color: red;
+   }
+   label{
+    margin-left: 35%;
+   }
+   h1{
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 60px;
+   }
+   button{
+    padding: 10px 20px;
+    margin-left: 46%;
+    font-size: 20px;
+    border-color: red;
+    border-radius: 5px;
+    color: red;
+   }
+   button:hover{
+background-color: red;
+color: bisque;
+   }
+ 
+</style>
+</head>
+<body>
+    <h1>Blood Donation Form</h1>
+<form action="/api/post" method="post" >
+    <label>Name</label><br>
+    <input type="text" placeholder="Enter Your Name" name="firstname" required><br><br>
+    <label>Email</label><br>
+    <input type="email" placeholder="Enter Your Email" name="email" required><br><br>
+    <label>Is the First time Donating?</label><br>
+    <input type="text" placeholder="Yes/No" name="thirdname" required><br><br>
+    <label>Blood Type (If Known)</label><br>
+    <input type="text" placeholder="eg:B+ve" name="fourthdname" required><br><br>
+    <label>City</label><br>
+    <input type="text" placeholder="Enter your City" name="fifthname" required><br><br>
+    <label>State</label><br>
+    <input type="text" placeholder="Enter your State" name="sixthname" required><br><br>
+    <label>Phone Number</label><br>
+    <input type="text" placeholder="Mobile Number" name="seventhname" required><br><br><br>
+    <button type="submit"><b>Submit</b></button><br><br><br>
+
+</form>
+</body>
+</html>
